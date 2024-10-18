@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  column-gap: 30px;
+  list-style: none;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #888;
+  border-radius: 8px;
+}
+
+/*.box:first-child {
+  background-color: red;
+}
+
+.box:last-child {
+  background-color: green;
+}
+
+.box:nth-child(3) {
+  background-color: yellow;
+}*/
+
+.box:nth-child(even) {
+  background-color: orangered;
+}
+
+.box:nth-child(odd) {
+  background-color: blueviolet;
+}
